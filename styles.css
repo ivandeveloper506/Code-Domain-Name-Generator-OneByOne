@@ -1,0 +1,59 @@
+/*******************************************************************************/
+/* Fecha Creación: 11 Febrero 2021.                                            */
+/* Autor:          Iván Fonseca Castro                                         */
+/*                                                                             */
+/* Descripción:    Hoja principal de estilos, permite personalizar los estilos */
+/*                 a utilizar en los componentes del sitio Web.                */
+/*******************************************************************************/
+
+body{
+    /* background: rgb(225,235,232) */
+
+     background: rgb(206, 235, 226)
+}
+
+h1{
+    color: rgb(62,155,133);
+}
+
+h3{
+   color: rgb(28,128,104)
+}
+
+.extensionClass {
+    width: 130px;
+    font-size: 18px;
+}
+
+.inputDomain{
+    font-size: 18px;
+    background: white;
+}
+
+#availableInfo{
+    padding: 12px 0px 0px 10px;
+}
+
+#domainName{
+    padding: 60px 0px 0px 10px;
+}
+
+.mainDomain{
+    border-radius: 7px;
+    border: 1px solid rgb(92,185,167);;
+    height: 280px;
+}
+
+.availableRow{
+    background: rgb(160,160,160);
+    border-radius: 7px 7px 0px 0px;
+    height: 50px;
+}
+
+.pageLoad{
+    color: navy;
+}
+
+.pageLoad:hover {
+    color: rgb(92, 92, 211);
+}
